@@ -833,3 +833,126 @@ font-weight: 600;
 		gap: 50px;
 	}
 }
+
+/* *************************************footer ************************************ */
+footer
+{
+    width:100%;
+    background-color: var(--dark);
+    color:white !important;
+    font-family: var(--font-fam);
+    display: flex;
+    flex-wrap: wrap;
+} 
+footer .f_first
+{
+    padding: 30px 20px;
+    font-size: 15px;
+    width:35%;
+}
+footer .f_menu
+{
+   list-style: none;
+   padding:30px 20px;
+   font-size: 15px;
+}
+footer .news
+{
+    padding: 30px 20px;
+}
+footer .news  input
+{
+    outline: none;
+    font-family:var(--font-fam);
+    box-shadow: none;
+    font-size:18px;
+    height:45px;
+    border: 1px solid #333;
+    margin-bottom: 10px;;
+    padding-left:10px;
+    align-items: center;
+    background-color: white;;
+}
+footer button
+{
+    height:45px;
+    color:white;
+    padding: 0 30px;
+    background-color: var(--primary-color);
+    border: none;
+}
+footer .f_des
+{
+    width: 100%;
+    font-size: small;
+    padding: 20px 20px;
+  text-align: center;
+  border-top: 1px solid gray;
+}
+a {
+    color: inherit;
+  }
+  /* General styles end*/
+  .soc {
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+    pointer-events: none;
+  }
+  .soc:hover {
+    pointer-events: auto;
+  }
+  .sm-head {
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    pointer-events: auto;
+  }
+  .lin {
+    width: 15rem;
+    height: 3px;
+    background-color: #fff;
+    margin-left: 2rem;
+    margin-right: auto;
+    transform: scaleX(0.2);
+    transform-origin: left;
+    transition: transform 0.5s;
+  }
+  .soc:hover .lin {
+    transform: scaleX(1);
+  }
+  .slist {
+    display: flex;
+    list-style: none;
+  }
+  .aitem {
+    margin-inline: 10px;
+    opacity: 0;
+    transition: transform 0.5s, opacity 0.5s;
+  }
+  .aitem:nth-child(odd) {
+    transform: translateY(5rem);
+  }
+  .aitem:nth-child(even) {
+    transform: translateY(-5rem);
+  }
+  .soc:hover .aitem {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .soc-link {
+    font-size: 23px;
+  }
+  .soc-link i {
+    transition: color 0.5s;
+    color:white;
+  }
+  .soc-link:hover i.bxl-facebook {
+    color: #3b5998;
+  }
+  .soc-link:hover i.bxl-twitter {
+    color: #1da1f2;
+  }
+  .soc-link:hover i.bxl-instagram {
+      color:hotpink;
+    }
