@@ -48,7 +48,6 @@ body
 }
 .nav a{
     text-decoration: none;
-    text-transform: uppercase;
     color: var(--dark);
     font-size: 15px;
     font-family: var(--font-fam);
@@ -58,7 +57,8 @@ body
     font-weight: 500;
 }
 .left-item a i{
- font-size: 40px;
+ font-size: 20px;
+ text-transform: lowercase;
 }
 .logo
 {
